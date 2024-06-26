@@ -17,35 +17,35 @@ Note: For this dashboard specification, it is crucial to represent exited custom
 Developing this dashboard using Power BI involved several steps, from connecting to data sources to creating visualizations and publishing the dashboard. Below is a step-by-step guide:
 1.	Open Power BI Desktop: Launch the Power BI Desktop application.
 2.	Get Data:
-o	Click on the Home tab and select "Get Data".
-o	Choose the data source type, in this case, Excel. Other options include SQL Server, Web, etc.
-o	If using SQL Server, provide the necessary credentials and connection information to access your data.
-o	Select the data and click "Load".
+Click on the Home tab and select "Get Data".
+Choose the data source type, in this case, Excel. Other options include SQL Server, Web, etc.
+If using SQL Server, provide the necessary credentials and connection information to access your data.
+Select the data and click "Load".
 3.	Data Cleaning and Transformation:
-o	Use the Power Query Editor to clean and transform data.
-o	Remove the irrelevant columns RowNumber, CustomerId and Surname.
+Use the Power Query Editor to clean and transform data.
+Remove the irrelevant columns RowNumber, CustomerId and Surname.
 4.	Data Modeling:
-o	If you have multiple datasets, define the relationships between different tables in the Model view, but this is not applicable in this case as a single dataset was used.
+If you have multiple datasets, define the relationships between different tables in the Model view, but this is not applicable in this case as a single dataset was used.
 5.	Create Visualizations:
-o	In the Report view, select a visualization type from the Visualizations pane (e.g., bar chart, line chart, pie chart).
-o	Drag and drop fields from the Fields pane (e.g., Age, Exited, Geography, CreditScore, HasCrCard, IsActiveMember, EstimatedSalary) to the visualization.
-o	Add measures to the Values field and categories to the Axis field.
+In the Report view, select a visualization type from the Visualizations pane (e.g., bar chart, line chart, pie chart).
+Drag and drop fields from the Fields pane (e.g., Age, Exited, Geography, CreditScore, HasCrCard, IsActiveMember, EstimatedSalary) to the visualization.
+Add measures to the Values field and categories to the Axis field.
 6.	Customize Visuals:
-o	Use the formatting options available in the Visualizations pane to customize your visuals.
-o	Add multiple visuals to the canvas by repeating the steps above.
-o	Resize and arrange the visuals on the canvas to create a coherent layout.
+Use the formatting options available in the Visualizations pane to customize your visuals.
+Add multiple visuals to the canvas by repeating the steps above.
+Resize and arrange the visuals on the canvas to create a coherent layout.
 7.	Add Interactivity:
-o	Use slicers to allow users to filter data on the dashboard.
-o	Use text boxes to add the dashboard title.
+Use slicers to allow users to filter data on the dashboard.
+Use text boxes to add the dashboard title.
 8.	Save and Publish:
-o	Save the Power BI report file (.pbix).
-o	Publish the report to Power BI Service.
+Save the Power BI report file (.pbix).
+Publish the report to Power BI Service.
 9.	Share the Dashboard:
-o	Open the Power BI Service in a web browser.
-o	Navigate to the workspace where you published the report.
-o	Share the dashboard with colleagues by clicking the Share button in the Power BI Service.
+Open the Power BI Service in a web browser.
+Navigate to the workspace where you published the report.
+Share the dashboard with colleagues by clicking the Share button in the Power BI Service.
 10.	Scheduled Refresh:
-o	If the data source is dynamic, set up a scheduled refresh in the Power BI Service.
-o	Go to Datasets, select your dataset, and configure the refresh settings to update the data periodically.
+If the data source is dynamic, set up a scheduled refresh in the Power BI Service.
+Go to Datasets, select your dataset, and configure the refresh settings to update the data periodically.
 
 This interactive dashboard in PowerBI was created following these steps, it provides valuable insights into customer satisfaction and churn, enabling the Bank to take proactive measures to improve customer retention and overall performance.
